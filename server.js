@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 // SPDX-License-Identifier: AGPL-3.0-only
 // Copyright (C) 2026 任世燎
-// dispatch MCP Server —— 派单框架标准接口（mcp-cha-zuo/1 插座契约）
+// paipai MCP Server —— 派派标准接口（mcp-cha-zuo/1 插座契约）
 // 查册 → 派活 → 收活 → 坑账回流（四步一扇门，每步各有执行账）；调令 diao-ling/1 + MCP 扩展。
 // 契约随身：info|status 自省必备、--json 机器可读（CLI 口）、fail loudly 附自纠、收活必带件、凭证只收 key_ref。
 'use strict';

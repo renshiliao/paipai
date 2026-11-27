@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: AGPL-3.0-only
 // Copyright (C) 2026 任世燎
-// 派单框架 · 自测台 —— 四步一扇门状态机 + key 红线 + MCP 真跑
+// 派派 · 自测台 —— 四步一扇门状态机 + key 红线 + MCP 真跑
 // 跑法：node test/self-test.mjs（全绿 exit 0）
 import { strict as assert } from 'node:assert';
 import { spawn } from 'node:child_process';
@@ -139,5 +139,5 @@ await T('MCP 真跑：initialize → tools/list → 四步走一回', async () =
 });
 
 rmSync(dir, { recursive: true, force: true });
-console.log(`\n=== 派单框架自测：${pass} 绿 ${fail} 红 ===`);
+console.log(`\n=== 派派自测：${pass} 绿 ${fail} 红 ===`);
 process.exit(fail ? 1 : 0);

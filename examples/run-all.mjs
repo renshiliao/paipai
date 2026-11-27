@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: AGPL-3.0-only
 // Copyright (C) 2026 任世燎
-// 派单框架 · 真跑示例 —— 四步一扇门走一回（查册→派活→收活→坑账回流）
+// 派派 · 真跑示例 —— 四步一扇门走一回（查册→派活→收活→坑账回流）
 // 跑法：node examples/run-all.mjs
 import { mkdtempSync } from 'node:fs';
 import { tmpdir } from 'node:os';
@@ -12,7 +12,7 @@ const { createDispatch } = require('../lib/dispatch.js');
 const dir = mkdtempSync(join(tmpdir(), 'dispatch-demo-'));
 const eng = createDispatch({ dir });
 
-console.log('═══ 派单框架 真跑示例（四步一扇门）═══\n');
+console.log('═══ 派派 真跑示例（四步一扇门）═══\n');
 
 // 花名册登记（查册用）
 console.log('① 花名册登记:', eng.enroll({ name: 'time-organ', capabilities: ['time.next_run', 'clock.now'] }).ok ? 'time-organ 入册' : '失败');
