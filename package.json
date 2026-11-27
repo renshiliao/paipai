@@ -1,11 +1,11 @@
 {
-  "name": "dispatch-mcp",
+  "name": "paipai",
   "version": "0.1.0",
-  "description": "派单框架：查册→派活→收活→坑账回流 四步一扇门 —— MCP Server + 库双形态（diao-ling/1）",
+  "description": "派派：查册→派活→收活→坑账回流 四步一扇门 —— MCP Server + 库双形态（diao-ling/1）",
   "license": "AGPL-3.0-only",
   "main": "lib/dispatch.js",
   "bin": {
-    "dispatch-mcp": "server.js"
+    "paipai": "server.js"
   },
   "scripts": {
     "test": "node test/self-test.mjs",
@@ -18,7 +18,7 @@
   "keywords": [
     "mcp",
     "model-context-protocol",
-    "dispatch",
+    "paipai",
     "work-order",
     "task"
   ],

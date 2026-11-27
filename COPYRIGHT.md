@@ -1,4 +1,4 @@
-# 版权声明（Copyright Notice）—— dispatch（派单框架）
+# 版权声明（Copyright Notice）—— paipai（派派）
 
 Copyright (C) 2026 任世燎。
 
@@ -33,7 +33,7 @@ Copyright (C) 2026 任世燎。
 改动件均带改动标注（源码头 SPDX 行 + `CHANGES.md`），符合 AGPL §5(a)(b)。
 署名格式：
 
-    dispatch
+    paipai
     Copyright (C) 2026 任世燎
     SPDX-License-Identifier: AGPL-3.0-only
 

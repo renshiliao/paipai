@@ -1,4 +1,4 @@
-# dispatch · 派单框架（开源三柱之三 · 派单模式）
+# paipai · 派派（开源三柱之三）
 
 > 查册 → 派活 → 收活 → 坑账回流（**四步一扇门**，每步各有执行账）—— **库 + MCP Server 双形态**。
 > 零依赖（Node ≥ 16）、纯文本白箱、**AGPL-3.0**、可直接发 GitHub。
@@ -6,9 +6,9 @@
 
 一句话：**办事凭调令，钥匙归局管——派单四步全留痕，失败必三杀回流。**
 
-**定位句（三柱之三 · 派单模式）**：把「让 AI 干活」变成可对账的工程——查册、派活、
+**定位句（三柱之三 · 派派）**：把「让 AI 干活」变成可对账的工程——查册、派活、
 收活、坑账回流，四步一扇门，一单一回执，失败必三杀回流。开源三柱＝信卡库（标签式
-记忆）／星轴自叙事／派单模式，本件居其三。
+记忆）／星轴自叙事／派派，本件居其三。
 
 本文书两版并存：文书版给内行，人读版给所有人。
 
@@ -42,11 +42,11 @@ MCP 插座不是普通人说装就装的东西，交给你的 AI 办刚好。把
 原样复制给你的 AI，它读完即装：
 
 ```text
-【安装令】请为我安装 dispatch 派单框架，按下列口径执行：
+【安装令】请为我安装 paipai（派派），按下列口径执行：
 
-一、装法：把 dispatch 仓库克隆或下载到本地（Node ≥ 16，运行时零第三方依赖）。
+一、装法：把 paipai 仓库克隆或下载到本地（Node ≥ 16，运行时零第三方依赖）。
 在 MCP 客户端配置里注册本 Server：command=node，args=[<仓库路径>/server.js]；
-用 claude code 的话一条命令：claude mcp add dispatch -- node <仓库路径>/server.js。
+用 claude code 的话一条命令：claude mcp add paipai -- node <仓库路径>/server.js。
 可选 env：DISPATCH_DIR（工单库/花名册/执行账目录，默认 <仓库路径>/data）。
 装完先读一遍 README 的使用守则四条。
 
@@ -114,7 +114,7 @@ node server.js --json dispatch_list "{}"   # CLI 口（--json 机器可读）
 
 ### 未达如实（照登，不藏）
 
-1. 三单模板（构建/审计/攻坚）与验收三闸属派单模式文档面，不在本引擎仓——本件只承
+1. 三单模板（构建/审计/攻坚）与验收三闸属派派的文档面，不在本引擎仓——本件只承
    四步一扇门与账行执行面（货架定位句的文档面口径随文档件发）。
 2. `key_ref` 只做指针透传，不做凭证真伪校验（凭证在场类检查只验形，不冒充真跑）。
 3. 工单库/花名册为本地 JSON 文件，单进程口径，无并发锁。
@@ -137,7 +137,7 @@ mcp-socket.json      插座条目（mcp-cha-zuo/1）
 表达全部自写，零第三方代码。合规三件齐：`LICENSE` / `COPYRIGHT.md` / `CHANGES.md`
 （每源件带 SPDX 头）。
 
-仓库门牌：github.com/renshiliao/dispatch ｜ 官网开源专题页：https://xinka.ai/xinka-opensource.html
+仓库门牌：github.com/renshiliao/paipai ｜ 官网开源专题页：https://xinka.ai/xinka-opensource.html
 
 ## 人读版（大白话）
 

@@ -29,3 +29,22 @@
 
 上述全部件作为**单一整体作品**按 AGPL-3.0 授权。逐文件改动标注在各源文件头
 （SPDX 行＋本表），日期 2026-11-27。
+
+## 四、2026-11-27 改名（家主拍板）—— 派派 / paipai
+
+同物异名四面并一，产品名统一「派派」（英文 paipai）。本节只动门牌，接口一字未动：
+
+| 面 | 改前 | 改后 |
+|---|---|---|
+| 产品名（货架卡名/README/网站） | 派单模式／派单框架 | 派派 |
+| 仓名（GitHub 仓） | renshiliao/dispatch | renshiliao/paipai（旧链 GitHub 自动跳转） |
+| package.json 名／bin 命令 | dispatch-mcp | paipai |
+| README 门牌互链行 | github.com/renshiliao/dispatch | github.com/renshiliao/paipai |
+
+**接口即契约，一字未动（改了会破兼容）**：MCP 工具名（`dispatch_register`/`dispatch_assign`/
+`dispatch_collect`/`dispatch_pitflow`/`dispatch_list`/`roster_enroll`/`info`/`status`）、
+`serverInfo.name='dispatch'`、`mcp-socket.json` 整件（`mcp-cha-zuo/1`、`name: dispatch`、
+`dispatch.*` capabilities）、调令 schema `diao-ling/1`、`DISPATCH_DIR`、源文件名
+（`lib/dispatch.js`）与全部源件字节零改动。本节改名只动四件门面：`README.md`/
+`COPYRIGHT.md`/`package.json`/`CHANGES.md`。改后自测台复跑 7 绿 0 红、示例真跑 exit 0（与改前同）。
+上述第二节「仓名终名待裁」一条至本节定案销账。
