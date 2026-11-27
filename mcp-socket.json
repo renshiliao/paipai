@@ -1,0 +1,29 @@
+{
+  "schema": "mcp-cha-zuo/1",
+  "name": "dispatch",
+  "transport": "stdio",
+  "command": "node",
+  "args": ["server.js"],
+  "url": null,
+  "env": [],
+  "headers": [],
+  "timeout_s": 120,
+  "connect_timeout_s": 60,
+  "capabilities": [
+    "roster.enroll",
+    "dispatch.register",
+    "dispatch.assign",
+    "dispatch.collect",
+    "dispatch.pitflow",
+    "dispatch.list"
+  ],
+  "trust": {
+    "audited": true,
+    "grade": "绿",
+    "net_access": "none"
+  },
+  "key_policy": "零凭证（只收 key_ref 指针，key 本体归用户/密钥保管方——key 三层分权）",
+  "license": "AGPL-3.0-only",
+  "status": "在局",
+  "registered_at": "2026-11-27T10:52:28+08:00"
+}
